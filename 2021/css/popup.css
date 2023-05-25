@@ -1,0 +1,93 @@
+.row {
+	display: flex;
+}
+
+.prospecto a {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 8px;
+}
+.triple .row{
+	display: block !important;
+}
+.triple a{
+	position:relative !important;
+}
+
+.download-links,
+.download-links p,
+.download-links p strong {
+	color: #000;
+}
+
+.download-links p {
+	margin-bottom: 8px;
+}
+
+.download-links a {
+	color: #5876ba;
+}
+
+h1 {
+	position: relative;
+}
+
+.superscript{
+	position: absolute;
+    top: 7px;
+    display: inherit;
+}
+
+.logos {
+	position: absolute; 
+	padding-bottom: 10px; 
+	margin-bottom: 60px; 
+	bottom: 0; 
+	width: 100%; 
+	right: 0;
+}
+
+.logos img {
+	float: right;
+}
+
+@media (max-width: 560px) {
+
+	.row {
+		display: block!important;
+	}
+
+	.textoProducto,
+	.img-producto {
+		padding: 0 28px 0 28px!important;
+	}
+
+	.img-producto img {
+		margin-bottom: 0!important;
+	}
+
+	.logos {
+		position: relative!important;
+		margin: 0 0 20px 0;
+		padding: 0;
+		display: flex;
+    	flex-direction: column-reverse;
+	}
+
+	.logos img {
+		float: none;
+		height: auto;
+		max-width: 60%;
+		margin: 0 auto 25px auto!important;
+		display: block;
+	}
+
+	.prospecto a {
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+}
